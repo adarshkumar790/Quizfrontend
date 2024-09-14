@@ -1,0 +1,58 @@
+.createQuizPage {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.createQuizPage h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.createQuizPage form {
+    display: flex;
+    flex-direction: column;
+}
+
+.createQuizPage label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.createQuizPage input[type="text"],
+.createQuizPage input[type="number"],
+.createQuizPage select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.createQuizPage input[type="text"] {
+    margin-bottom: 10px;
+}
+
+.createQuizPage button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.createQuizPage button:hover {
+    background-color: #0056b3;
+}
+
+.createQuizPage .error {
+    color: #d9534f;
+    margin-top: 10px;
+}

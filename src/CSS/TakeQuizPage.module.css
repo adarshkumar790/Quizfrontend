@@ -1,0 +1,108 @@
+/* TakeQuizPage.module.css */
+
+.takeQuizPage {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.takeQuizPage h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.takeQuizPage p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.questionContainer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.questionContainer p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.option {
+    margin-bottom: 10px;
+}
+
+.option input {
+    margin-right: 10px;
+}
+
+.timer {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #e60000;
+}
+
+.takeQuizPage button {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.takeQuizPage button:hover {
+    background-color: #005bb5;
+}
+
+.score {
+    background-color: #e0ffe0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.score h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #008000;
+}
+
+.shareQuiz {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.shareQuiz p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.shareQuiz button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.shareQuiz button:hover {
+    background-color: #45a049;
+}
+
+.optionImage {
+    max-width: 150px;
+    max-height: 150px; 
+    object-fit: cover; 
+    margin-top: 10px;
+    border-radius: 5px;
+}
